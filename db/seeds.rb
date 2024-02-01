@@ -1,21 +1,12 @@
-#親カテゴリー
-ladies,mens,baby = Category. create([{name: "レディース"}, {name: "メンズ"}, {name: "ベビー・キッズ"}])
+#レディース (親カテゴリー)
+ladies,mens,baby,interior,book_music_game,toy_hoby_goods,kosumebiyou,kadensumaho,sportleja,handmade,ticket,car_autoby,sonota1 = Category.create([{name: "レディース"}, {name: "メンズ"},{name: "ベビー・キッズ"},{name: "インテリア・住まい・小物"},{name: "本・音楽・ゲーム"},{name: "おもちゃ・ホビー・グッズ"},{name: "コスメ・香水・美容"},{name: "家電・スマホ・カメラ"},{name: "スポーツ・レジャー"},{name: "ハンドメイド"},{name: "チケット"},{name: "自動車・オートバイ"},{name: "その他"}])
 
-#子カテゴリー
-tops = ladies.children.create([{name: "トップス"},{"ジャケット/アウター"},{name "パンツ"}])
-
-#孫カテゴリー
-tops.children.create([{name: "Tシャツ/カットソー(半袖/袖なし)"}, {name: "Tシャツ/カットソー(七分/長袖)"},{name: "シャツ/ブラウス(半袖/袖なし)"}, {name: "シャツ/ブラウス(七分/長袖)"},{name: "ポロシャツ"},{name: "キャミソール"},{name: "タンクトップ"},{name: "ホルターネック"},{name: "ニット/セーター"},{name: "チュニック"},{name: "カーディガン/ボレロ"},{name: "アンサンブル"},{name: "ベスト/ジレ"},{name: "パーカー"},{name: "トレーナー/スウェット"},{name: "ベアトップ/チューブトップ"},{name: "その他"}])
-
-
-
-interior,book_music_game,toy_hoby_goods,kosumebiyou,kadensumaho,sportleja,handmade,ticket,car_autoby,sonota1 = Category.create([{name: "レディース"}, {name: "メンズ"},{name: "ベビー・キッズ"},{name: "インテリア・住まい・小物"},{name: "本・音楽・ゲーム"},{name: "おもちゃ・ホビー・グッズ"},{name: "コスメ・香水・美容"},{name: "家電・スマホ・カメラ"},{name: "スポーツ・レジャー"},{name: "ハンドメイド"},{name: "チケット"},{name: "自動車・オートバイ"},{name: "その他"}])
-
-
-
+#レディース (子カテゴリー)
 tops,jaket_outer,pants,skart,wanpice,shoo,roomwea,regwea,hat,bag,acesary,hairacesary,komono,tokeil,wigexste,yukata,sutu,matanity,sonota = ladies.children.create([{name: "トップス"},{name: "ジャケット/アウター"},{name: "パンツ"},{name: "スカート"},{name: "ワンピース"},{name: "靴"},{name: "ルームウェア/パジャマ"},{name: "レッグウェア"},{name: "帽子"},{name: "バッグ"},{name: "アクセサリー"},{name: "ヘアアクセサリー"},{name: "小物"},{name: "時計"},{name: "ウィッグ/エクステ"},{name: "浴衣/水着"},{name: "スーツ/フォーマル/ドレス"},{name: "マタニティ"},{name: "その他"}])
 
+#レディース (孫カテゴリー)
 tops.children.create([{name: "Tシャツ/カットソー(半袖/袖なし)"}, {name: "Tシャツ/カットソー(七分/長袖)"},{name: "シャツ/ブラウス(半袖/袖なし)"}, {name: "シャツ/ブラウス(七分/長袖)"},{name: "ポロシャツ"},{name: "キャミソール"},{name: "タンクトップ"},{name: "ホルターネック"},{name: "ニット/セーター"},{name: "チュニック"},{name: "カーディガン/ボレロ"},{name: "アンサンブル"},{name: "ベスト/ジレ"},{name: "パーカー"},{name: "トレーナー/スウェット"},{name: "ベアトップ/チューブトップ"},{name: "その他"}])
+
 jaket_outer.children.create([{name: "テーラードジャケット"},{name: "ノーカラージャケット"},{name: "Gジャン/デニムジャケット"},{name: "レザージャケット"},{name: "ダウンジャケット"},{name: "ライダースジャケット"},{name: "ミリタリージャケット"},{name: "ダウンベスト"},{name: "ジャンパー/ブルゾン"},{name: "ポンチョ"},{name: "ロングコート"},{name: "トレンチコート"},{name: "ダッフルコート"},{name: "ピーコート"},{name: "チェスターコート"},{name: "モッズコート"},{name: "スタジャン"},{name: "毛皮/ファーコート"},{name: "スプリントコート"},{name: "スカジャン"},{name: "その他"}])
 
 pants.children.create([{name: "デニム/ジーンズ"}, {name: "ショートパンツ"},{name: "カジュアルパンツ"}, {name: "ハーフパンツ"},{name: "チノパン"},{name: "ワークパンツ/カーゴパンツ"},{name: "クロップドパンツ"},{name: "サロペット/オーバーオール"},{name: "オールインワン"},{name: "サルエルパンツ"},{name: "ガウチョパンツ"},{name: "その他"}])
