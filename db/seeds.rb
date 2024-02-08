@@ -32,36 +32,36 @@ acesary.children.create([{name: "ネックレス"},{name: "ブレスレット"},
 hairacesary.children.create([{name: "ヘアゴム/シュシュ"},{name: "ヘアバンド/カチューシャ"},{name: "ヘアピン"},{name: "その他"}])
 
 
-["長財布","折り財布","コインケース/小銭入れ","名刺入れ/定期入れ","キーケース","キーホルダー","手袋/アームカバー","ハンカチ","ベルト","マフラー/ショール","ストール/スヌード","バンダナ/スカーフ","ネックウォーマー","サスペンダー","サングラス/メガネ","モバイルケース/カバー","手帳","イヤマフラー","傘","レインコート/ポンチョ","ミラー","タバコグッズ","その他"].each do |name|
+["長財布","折り財布","コインケース/小銭入れ","名刺入れ/定期入れ","キーケース","キーホルダー","手袋/アームカバー","ハンカチ","ベルト","マフラー/ショール","ストール/スヌード","バンダナ/スカーフ","ネックウォーマー","サスペンダー","サングラス/メガネ","モバイルケース/カバー","手帳","イヤマフラー","傘","レインコート/ポンチョ","ミラー","タバコグッズ","その他"].each do |komono|
 
-  komono.children.create(name: name)
-
-end
-
-["腕時計(アナログ)","腕時計(デジタル)","ラバーベルト","レザーベルト","金属ベルト","その他"].each do |name|
-
-  tokeil.children.create(name: name)
+  komono.children.create(name: komono)
 
 end
 
-["前髪ウィッグ","ロングストレート","ロングカール","ショートストレート","ショートカール","その他"].each do |name|
-  wigexste.children.create(name: name)
+["腕時計(アナログ)","腕時計(デジタル)","ラバーベルト","レザーベルト","金属ベルト","その他"].each do |tokeil|
+
+  tokeil.children.create(name: tokeil)
+
 end
 
-["浴衣","着物","振袖","長襦袢/半襦袢","水着セパレート","水着ワンピース","水着スポーツ用","その他"].each do |name|
-  yukata.children.create(name: name)
+["前髪ウィッグ","ロングストレート","ロングカール","ショートストレート","ショートカール","その他"].each do |wigexste|
+  wigexste.children.create(name: wigexste)
 end
 
-["スカートスーツ上下","パンツスーツ上下","ドレス","パーティーバッグ","シューズ","ウェディング","その他"].each do |name|
-  sutu.children.create(name: name)
+["浴衣","着物","振袖","長襦袢/半襦袢","水着セパレート","水着ワンピース","水着スポーツ用","その他"].each do |yukata|
+  yukata.children.create(name: yukata)
 end
 
-["トップス","アウター","インナー","ワンピース","パンツ/スパッツ","スカート","パジャ","授乳服","その他"].each do |name|
-  matanity.children.create(name: name)
+["スカートスーツ上下","パンツスーツ上下","ドレス","パーティーバッグ","シューズ","ウェディング","その他"].each do |sutu|
+  sutu.children.create(name: sutu)
 end
 
-["コスプレ","下着","その他"].each do |name|
-  sonota.children.create(name: name)
+["トップス","アウター","インナー","ワンピース","パンツ/スパッツ","スカート","パジャ","授乳服","その他"].each do |matanity|
+  matanity.children.create(name: matanity)
+end
+
+["コスプレ","下着","その他"].each do |sonota|
+  sonota.children.create(name: sonota)
 end
 
 
