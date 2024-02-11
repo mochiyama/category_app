@@ -134,68 +134,68 @@ end
 bwoman,bman,bwm,kidsw,kidsm,kidswm,shoo,komono,omutu,gaishutu,junyuu,kagu,toy,gyouji,sonota = baby.children.create([{name: "ベビー服(女の子用)~95cm"},{name: "ベビー服(男の子用)~95cm"},{name: "ベビー服(男女兼用)~95cm"},{name: "キッズ服(女の子用)100cm~"},{name: "キッズ服(男の子用)100cm~"},{name: "キッズ服(男女兼用)100cm~"},{name: "キッズ靴"},{name: "子供用ファッション小物"},{name: "おむつ/トイレ/バス"},{name: "外出/移動用品"},{name: "授乳/食事"},{name: "ベビー家具/寝具/室内用品"},{name: "おもちゃ"},{name: "行事/記念品"},{name: "その他"}])
 
 
-["トップス","アウター","パンツ","スカート","ワンピース","ベビードレス","おくるみ","下着/肌着","パジャマ","ロンパース","その他"].each do |name|
-  bwoman.children.create(name: name)
+["トップス","アウター","パンツ","スカート","ワンピース","ベビードレス","おくるみ","下着/肌着","パジャマ","ロンパース","その他"].each do |bwoman|
+  bwoman.children.create(name: bwoman)
 end
 
 
-["トップス","アウター","パンツ","おくるみ","下着/肌着","パジャマ","ロンパース","その他"].each do |name|
-  bman.children.create(name: name)
+["トップス","アウター","パンツ","おくるみ","下着/肌着","パジャマ","ロンパース","その他"].each do |bman|
+  bman.children.create(name: bman)
 end
 
 
-["トップス","アウター","パンツ","おくるみ","下着/肌着","パジャマ","ロンパース","その他"].each do |name|
-  bwm.children.create(name: name)
+["トップス","アウター","パンツ","おくるみ","下着/肌着","パジャマ","ロンパース","その他"].each do |bwm|
+  bwm.children.create(name: bwm)
 end
 
 
-["コート","ジャケット/上着","トップス(Tシャツ/カットソー)","トップス(トレーナー)","トップス(チュニック)","トップス(タンクトップ)","トップス(その他)","スカート","パンツ","ワンピース","セットアップ","パジャマ","フォーマル/ドレス","和服","浴衣","甚平","水着","その他"].each do |name|
-  kidsw.children.create(name: name)
+["コート","ジャケット/上着","トップス(Tシャツ/カットソー)","トップス(トレーナー)","トップス(チュニック)","トップス(タンクトップ)","トップス(その他)","スカート","パンツ","ワンピース","セットアップ","パジャマ","フォーマル/ドレス","和服","浴衣","甚平","水着","その他"].each do |kidsw|
+  kidsw.children.create(name: kidsw)
 end
 
-["コート","ジャケット/上着","トップス(Tシャツ/カットソー)","トップス(トレーナー)","トップス(その他)","パンツ","セットアップ","パジャマ","フォーマル/ドレス","和服","浴衣","甚平","水着","その他"].each do |name|
-  kidsm.children.create(name: name)
+["コート","ジャケット/上着","トップス(Tシャツ/カットソー)","トップス(トレーナー)","トップス(その他)","パンツ","セットアップ","パジャマ","フォーマル/ドレス","和服","浴衣","甚平","水着","その他"].each do |kidsm|
+  kidsm.children.create(name: kidsm)
 end
 
-["コート","ジャケット/上着","トップス(Tシャツ/カットソー)","トップス(トレーナー)","トップス(その他)","ボトムス","パジャマ","その他"].each do |name|
-  kidswm.children.create(name: name)
+["コート","ジャケット/上着","トップス(Tシャツ/カットソー)","トップス(トレーナー)","トップス(その他)","ボトムス","パジャマ","その他"].each do |kidswm|
+  kidswm.children.create(name: kidswm)
 end
 
-["スニーカー","サンダル","ブーツ","長靴","その他"].each do |name|
-  shoo.children.create(name: name)
+["スニーカー","サンダル","ブーツ","長靴","その他"].each do |shoo|
+  shoo.children.create(name: shoo)
 end
 
 
-["靴下/スパッツ","帽子","エプロン","サスペンダー","タイツ","ハンカチ","バンダナ","ベルト","マフラー","傘","手袋","スタイ","バッグ","その他"].each do |name|
-  komono.children.create(name: name)
+["靴下/スパッツ","帽子","エプロン","サスペンダー","タイツ","ハンカチ","バンダナ","ベルト","マフラー","傘","手袋","スタイ","バッグ","その他"].each do |komono|
+  komono.children.create(name: komono)
 end
 
-["おむつ用品","おまる/補助便座","トレーニングパンツ","ベビーバス","お風呂用品","その他"].each do |name|
-  omutu.children.create(name: name)
+["おむつ用品","おまる/補助便座","トレーニングパンツ","ベビーバス","お風呂用品","その他"].each do |omutu|
+  omutu.children.create(name: omutu)
 end
 
-["ベビーカー","抱っこひも/スリング","チャイルドシート","その他"].each do |name|
-  gaishutu.children.create(name: name)
+["ベビーカー","抱っこひも/スリング","チャイルドシート","その他"].each do |gaishutu|
+  gaishutu.children.create(name: gaishutu)
 end
 
-["ミルク","ベビーフード","ベビー用食器","その他"].each do |name|
-  junyuu.children.create(name: name)
+["ミルク","ベビーフード","ベビー用食器","その他"].each do |junyuu|
+  junyuu.children.create(name: junyuu)
 end
 
-["ベッド","布団/毛布","イス","たんす","その他"].each do |name|
-  kagu.children.create(name: name)
+["ベッド","布団/毛布","イス","たんす","その他"].each do |kagu|
+  kagu.children.create(name: kagu)
 end
 
-["おふろのおもちゃ","がらがら","オルゴール","ベビージム","手押し車/カタカタ","知育玩具","その他"].each do |name|
-  toy.children.create(name: name)
+["おふろのおもちゃ","がらがら","オルゴール","ベビージム","手押し車/カタカタ","知育玩具","その他"].each do |toy|
+  toy.children.create(name: toy)
 end
 
-["お宮参り用品","お食い初め用品","アルバム","手形/足形","その他"].each do |name|
-  gyouji.children.create(name: name)
+["お宮参り用品","お食い初め用品","アルバム","手形/足形","その他"].each do |gyouji|
+  gyouji.children.create(name: gyouji)
 end
 
-["母子手帳用品","その他"].each do |name|
-  sonota.children.create(name: name)
+["母子手帳用品","その他"].each do |sonota|
+  sonota.children.create(name: sonota)
 end
 
 
