@@ -260,38 +260,38 @@ end
 book,manga,zashi,cd,dvd,record,game = book_music_game.children.create([{name: "本"},{name: "漫画"},{name: "雑誌"},{name: "CD"},{name: "DVD/ブルーレイ"},{name: "レコード"},{name: "テレビゲーム"}])
 
 
-["文学/小説","人文/社会","ノンフィクション/教養","地図/旅行ガイド","ビジネス/経済","健康/医学","コンピュータ/IT","趣味/スポーツ/実用","住まい/暮らし/子育て","アート/エンタメ","洋書","絵本","参考書","その他"].each do |name|
-  book.children.create(name: name)
+["文学/小説","人文/社会","ノンフィクション/教養","地図/旅行ガイド","ビジネス/経済","健康/医学","コンピュータ/IT","趣味/スポーツ/実用","住まい/暮らし/子育て","アート/エンタメ","洋書","絵本","参考書","その他"].each do |book|
+  book.children.create(name: book)
 end
 
-["全巻セット","少年漫画","少女漫画","青年漫画","女性漫画","同人誌","その他"].each do |name|
-  manga.children.create(name: name)
-end
-
-
-["アート/エンタメ/ホビー","ファッション","ニュース/総合","趣味/スポーツ","その他"].each do |name|
-  zashi.children.create(name: name)
+["全巻セット","少年漫画","少女漫画","青年漫画","女性漫画","同人誌","その他"].each do |manga|
+  manga.children.create(name: manga)
 end
 
 
-["邦楽","洋楽","アニメ","クラシック","K-POP/アジア","キッズ/ファミリー","その他"].each do |name|
-  cd.children.create(name: name)
+["アート/エンタメ/ホビー","ファッション","ニュース/総合","趣味/スポーツ","その他"].each do |zashi|
+  zashi.children.create(name: zashi)
 end
 
 
-["外国映画","日本映画","アニメ","TVドラマ","ミュージック","お笑い/バラエティ","スポーツ/フィットネス","キッズ/ファミリー","その他"].each do |name|
-  dvd.children.create(name: name)
+["邦楽","洋楽","アニメ","クラシック","K-POP/アジア","キッズ/ファミリー","その他"].each do |cd|
+  cd.children.create(name: cd)
 end
 
 
-["邦楽","洋楽","その他"].each do |name|
-  record.children.create(name: name)
+["外国映画","日本映画","アニメ","TVドラマ","ミュージック","お笑い/バラエティ","スポーツ/フィットネス","キッズ/ファミリー","その他"].each do |dvd|
+  dvd.children.create(name: dvd)
+end
+
+
+["邦楽","洋楽","その他"].each do |record|
+  record.children.create(name: record)
 end
 
 
 
-["家庭用ゲーム本体","家庭用ゲームソフト","携帯用ゲーム本体","携帯用ゲームソフト","PCゲーム","その他"].each do |name|
-  game.children.create(name: name)
+["家庭用ゲーム本体","家庭用ゲームソフト","携帯用ゲーム本体","携帯用ゲームソフト","PCゲーム","その他"].each do |game|
+  game.children.create(name: game)
 end
 
 
