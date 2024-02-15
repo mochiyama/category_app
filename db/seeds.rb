@@ -300,56 +300,56 @@ end
 omotya,tarent,comic,card,figure,gakki,core,miritary,bijutu,art,sonota = toy_hoby_goods.children.create([{name: "おもちゃ"},{name: "タレントグッズ"},{name: "コミック/アニメグッズ"},{name: "トレーディングカード"},{name: "フィギュア"},{name: "楽器/器材"},{name: "コレクション"},{name: "ミリタリー"},{name: "美術品"},{name: "アート用品"},{name: "その他"}])
 
 
-["キャラクターグッズ","ぬいぐるみ","小物/アクセサリー","模型/プラモデル","ミニカー","トイラジコン","プラモデル","ホビーラジコン","鉄道模型","その他"].each do |name|
+["キャラクターグッズ","ぬいぐるみ","小物/アクセサリー","模型/プラモデル","ミニカー","トイラジコン","プラモデル","ホビーラジコン","鉄道模型","その他"].each do |omotya|
 
-  omotya.children.create(name: name)
+  omotya.children.create(name: omotya)
 end
 
-["アイドル","ミュージシャン","タレント/お笑い芸人","スポーツ選手","その他"].each do |name|
-  tarent.children.create(name: name)
-end
-
-
-["ストラップ","キーホルダー","バッジ","カード","クリアファイル","ポスター","タオル","その他"].each do |name|
-  comic.children.create(name: name)
+["アイドル","ミュージシャン","タレント/お笑い芸人","スポーツ選手","その他"].each do |tarent|
+  tarent.children.create(name: tarent)
 end
 
 
-["遊戯王","マジック：ザ・ギャザリング","ポケモンカードゲーム","デュエルマスターズ","バトルスピリッツ","プリパラ","アイカツ","カードファイト!! ヴァンガード","ヴァイスシュヴァルツ","プロ野球オーナーズリーグ","ベースボールヒーローズ","ドラゴンボール","スリーブ","その他"].each do |name|
-  card.children.create(name: name)
+["ストラップ","キーホルダー","バッジ","カード","クリアファイル","ポスター","タオル","その他"].each do |comic|
+  comic.children.create(name: comic)
 end
 
 
-["コミック/アニメ","特撮","ゲームキャラクター","SF/ファンタジー/ホラー","アメコミ","スポーツ","ミリタリー","その他"].each do |name|
-  figure.children.create(name: name)
+["遊戯王","マジック：ザ・ギャザリング","ポケモンカードゲーム","デュエルマスターズ","バトルスピリッツ","プリパラ","アイカツ","カードファイト!! ヴァンガード","ヴァイスシュヴァルツ","プロ野球オーナーズリーグ","ベースボールヒーローズ","ドラゴンボール","スリーブ","その他"].each do |card|
+  card.children.create(name: card)
 end
 
 
-["エレキギター","アコースティックギター","ベース","エフェクター","アンプ","弦楽器","管楽器","鍵盤楽器","打楽器","和楽器","楽譜/スコア","レコーディング/PA機器","DJ機器","DTM/DAW","その他"].each do |name|
-  gakki.children.create(name: name)
+["コミック/アニメ","特撮","ゲームキャラクター","SF/ファンタジー/ホラー","アメコミ","スポーツ","ミリタリー","その他"].each do |figure|
+  figure.children.create(name: figure)
 end
 
 
-["武具","切手/官製はがき","貨幣/金貨/銀貨/記念硬貨","印刷物","ノベルティグッズ","その他"].each do |name|
-  core.children.create(name: name)
+["エレキギター","アコースティックギター","ベース","エフェクター","アンプ","弦楽器","管楽器","鍵盤楽器","打楽器","和楽器","楽譜/スコア","レコーディング/PA機器","DJ機器","DTM/DAW","その他"].each do |gakki|
+  gakki.children.create(name: gakki)
 end
 
 
-["トイガン","個人装備","その他"].each do |name|
-  miritary.children.create(name: name)
-end
-
-["陶芸","ガラス","漆芸","金属工芸","絵画/タペストリ","版画","彫刻/オブジェクト","書","写真","その他"].each do |name|
-  bijutu.children.create(name: name)
+["武具","切手/官製はがき","貨幣/金貨/銀貨/記念硬貨","印刷物","ノベルティグッズ","その他"].each do |core|
+  core.children.create(name: core)
 end
 
 
-["画材","額縁","その他"].each do |name|
-  art.children.create(name: name)
+["トイガン","個人装備","その他"].each do |miritary|
+  miritary.children.create(name: miritary)
 end
 
-["トランプ/UNO","カルタ/百人一首","ダーツ","ビリヤード","麻雀","パズル/ジグソーパズル","囲碁/将棋","オセロ/チェス","人生ゲーム","野球/サッカーゲーム","スポーツ","三輪車/乗り物","ヨーヨー","模型製作用品","鉄道","航空機","アマチュア無線","パチンコ/パチスロ","その他"].each do |name|
-  sonota.children.create(name: name)
+["陶芸","ガラス","漆芸","金属工芸","絵画/タペストリ","版画","彫刻/オブジェクト","書","写真","その他"].each do |bijutu|
+  bijutu.children.create(name: bijutu)
+end
+
+
+["画材","額縁","その他"].each do |art|
+  art.children.create(name: art)
+end
+
+["トランプ/UNO","カルタ/百人一首","ダーツ","ビリヤード","麻雀","パズル/ジグソーパズル","囲碁/将棋","オセロ/チェス","人生ゲーム","野球/サッカーゲーム","スポーツ","三輪車/乗り物","ヨーヨー","模型製作用品","鉄道","航空機","アマチュア無線","パチンコ/パチスロ","その他"].each do |sonota|
+  sonota.children.create(name: sonota)
 end
 
 
