@@ -358,57 +358,57 @@ end
 base,make,nail,kousui,skin,hairca,bodyca,oral,rirag,diet,sonota = kosumebiyou.children.create([{name: "ベースメイク"},{name: "メイクアップ"},{name: "ネイルケア"},{name: "香水"},{name: "スキンケア/基礎化粧品"},{name: "ヘアケア"},{name: "ボディケア"},{name: "オーラルケア"},{name: "リラグゼーション"},{name: "ダイエット"},{name: "その他"}])
 
 
-["ファンデーション","化粧下地","コントロールカラー","BBクリーム","CCクリーム","コンシーラー","フェイスパウダー","トライアルセット/サンプル","その他"].each do |name|
-  base.children.create(name: name)
+["ファンデーション","化粧下地","コントロールカラー","BBクリーム","CCクリーム","コンシーラー","フェイスパウダー","トライアルセット/サンプル","その他"].each do |base|
+  base.children.create(name: base)
 end
 
 
-["アイシャドウ","口紅","リップグロス","リップライナー","チーク","フェイスカラー","マスカラ","アイライナー","つけまつげ","アイブロウペンシル","パウダーアイブロウ","眉マスカラ","トライアルセット/サンプル","メイク道具/化粧小物","美顔用品/美顔ローラー","その他"].each do |name|
-  make.children.create(name: name)
+["アイシャドウ","口紅","リップグロス","リップライナー","チーク","フェイスカラー","マスカラ","アイライナー","つけまつげ","アイブロウペンシル","パウダーアイブロウ","眉マスカラ","トライアルセット/サンプル","メイク道具/化粧小物","美顔用品/美顔ローラー","その他"].each do |make|
+  make.children.create(name: make)
 end
 
 
-["ネイルカラー","カラージェル","ネイルベースコート/トップコート","ネイルアート用品","ネイルパーツ","ネイルチップ/付け爪","手入れ用具","除光液","その他"].each do |name|
-  nail.children.create(name: name)
+["ネイルカラー","カラージェル","ネイルベースコート/トップコート","ネイルアート用品","ネイルパーツ","ネイルチップ/付け爪","手入れ用具","除光液","その他"].each do |nail|
+  nail.children.create(name: nail)
 end
 
 
-["香水(女性用)","香水(男性用)","ユニセックス","ボディミスト","その他"].each do |name|
-  kousui.children.create(name: name)
+["香水(女性用)","香水(男性用)","ユニセックス","ボディミスト","その他"].each do |kousui|
+  kousui.children.create(name: kousui)
 end
 
-["化粧水/ローション","乳液/ミルク","美容液","フェイスクリーム","洗顔料","クレンジング/メイク落とし","パック/フェイスマスク","ジェル/ゲル","ブースター/導入液","アイケア","リップケア","トライアルセット/サンプル","洗顔グッズ","その他"].each do |name|
-  skin.children.create(name: name)
-end
-
-
-["シャンプー","トリートメント","コンディショナー","リンス","スタイリング剤","カラーリング剤","ブラシ","その他"].each do |name|
-  hairca.children.create(name: name)
+["化粧水/ローション","乳液/ミルク","美容液","フェイスクリーム","洗顔料","クレンジング/メイク落とし","パック/フェイスマスク","ジェル/ゲル","ブースター/導入液","アイケア","リップケア","トライアルセット/サンプル","洗顔グッズ","その他"].each do |skin|
+  skin.children.create(name: skin)
 end
 
 
-["オイル/クリーム","ハンドクリーム","ローション","日焼け止め/サンオイル","ボディソープ","入浴剤","制汗/デオドラント","フットケア","その他"].each do |name|
-  bodyca.children.create(name: name)
+["シャンプー","トリートメント","コンディショナー","リンス","スタイリング剤","カラーリング剤","ブラシ","その他"].each do |hairca|
+  hairca.children.create(name: hairca)
 end
 
 
-["口臭防止/エチケット用品","歯ブラシ","その他"].each do |name|
-  oral.children.create(name: name)
-end
-
-["エッセンシャルオイル","芳香器","お香/香炉","キャンドル","その他"].each do |name|
-  rirag.children.create(name: name)
+["オイル/クリーム","ハンドクリーム","ローション","日焼け止め/サンオイル","ボディソープ","入浴剤","制汗/デオドラント","フットケア","その他"].each do |bodyca|
+  bodyca.children.create(name: bodyca)
 end
 
 
-["ダイエット食品","エクササイズ用品","体重計","体脂肪計","その他"].each do |name|
-  diet.children.create(name: name)
+["口臭防止/エチケット用品","歯ブラシ","その他"].each do |oral|
+  oral.children.create(name: oral)
+end
+
+["エッセンシャルオイル","芳香器","お香/香炉","キャンドル","その他"].each do |rirag|
+  rirag.children.create(name: rirag)
+end
+
+
+["ダイエット食品","エクササイズ用品","体重計","体脂肪計","その他"].each do |diet|
+  diet.children.create(name: diet)
 
 end
 
 
-["健康用品","看護/介護用品","救急/衛生用品","その他"].each do |name|
-  sonota.children.create(name: name)
+["健康用品","看護/介護用品","救急/衛生用品","その他"].each do |sonota|
+  sonota.children.create(name: sonota)
 end
 
 # 家電・スマホ・カメラ
