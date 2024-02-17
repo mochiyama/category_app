@@ -417,45 +417,45 @@ end
 sumaho,sumahoac,pctab,camera,terebi,odio,biyou,reibou,seikatu,sonota = kadensumaho.children.create([{name: "スマートフォン/携帯電話"},{name: "スマホアクセサリー"},{name: "PC/タブレット"},{name: "カメラ"},{name: "テレビ/映像機器"},{name: "オーディオ機器"},{name: "美容/健康"},{name: "冷暖房/空調"},{name: "生活家電"},{name: "その他"}])
 
 
-["スマートフォン本体","バッテリー/充電器","携帯電話本体","PHS本体","その他"].each do |name|
-  sumaho.children.create(name: name)
+["スマートフォン本体","バッテリー/充電器","携帯電話本体","PHS本体","その他"].each do |sumaho|
+  sumaho.children.create(name: sumaho)
 end
 
 
-["Android用ケース","iPhone用ケース","カバー","イヤホンジャック","ストラップ","フィルム","自撮り棒","その他"].each do |name|
-  sumahoac.children.create(name: name)
+["Android用ケース","iPhone用ケース","カバー","イヤホンジャック","ストラップ","フィルム","自撮り棒","その他"].each do |sumahoac|
+  sumahoac.children.create(name: sumahoac)
 end
 
-["タブレット","ノートPC","デスクトップ型PC","ディスプレイ","電子ブックリーダー","PC周辺機器","PCパーツ","その他"].each do |name|
-  pctab.children.create(name: name)
+["タブレット","ノートPC","デスクトップ型PC","ディスプレイ","電子ブックリーダー","PC周辺機器","PCパーツ","その他"].each do |pctab|
+  pctab.children.create(name: pctab)
 end
 
-["デジタルカメラ","ビデオカメラ","レンズ(単焦点)","レンズ(ズーム)","フィルムカメラ","防犯カメラ","その他"].each do |name|
-  camera.children.create(name: name)
-end
-
-
-["テレビ","プロジェクター","ブルーレイレコーダー","DVDレコーダー","ブルーレイプレーヤー","DVDプレーヤー","映像用ケーブル","その他"].each do |name|
-  terebi.children.create(name: name)
-
+["デジタルカメラ","ビデオカメラ","レンズ(単焦点)","レンズ(ズーム)","フィルムカメラ","防犯カメラ","その他"].each do |camera|
+  camera.children.create(name: camera)
 end
 
 
-["ポータブルプレーヤー","イヤフォン","ヘッドフォン","アンプ","スピーカー","ケーブル/シールド","ラジオ","その他"].each do |name|
-  odio.children.create(name: name)
-end
+["テレビ","プロジェクター","ブルーレイレコーダー","DVDレコーダー","ブルーレイプレーヤー","DVDプレーヤー","映像用ケーブル","その他"].each do |terebi|
+  terebi.children.create(name: terebi)
 
-["ヘアドライヤー","ヘアアイロン","美容機器","マッサージ機","電気シェーバー","電動歯ブラシ","その他"].each do |name|
-  biyou.children.create(name: name)
 end
 
 
-["エアコン","空気清浄器","加湿器","扇風機","除湿機","ファンヒーター","電気ヒーター","オイルヒーター","ストーブ","ホットカーペット","こたつ","電気毛布","その他"].each do |name|
-  reibou.children.create(name: name)
+["ポータブルプレーヤー","イヤフォン","ヘッドフォン","アンプ","スピーカー","ケーブル/シールド","ラジオ","その他"].each do |odio|
+  odio.children.create(name: odio)
 end
 
-["冷蔵庫","洗濯機","炊飯器","電子レンジ/オーブン","調理機器","アイロン","掃除機","エスプレッソマシン","コーヒーメーカー","衣類乾燥機","その他"].each do |name|
-  seikatu.children.create(name: name)
+["ヘアドライヤー","ヘアアイロン","美容機器","マッサージ機","電気シェーバー","電動歯ブラシ","その他"].each do |biyou|
+  biyou.children.create(name: biyou)
+end
+
+
+["エアコン","空気清浄器","加湿器","扇風機","除湿機","ファンヒーター","電気ヒーター","オイルヒーター","ストーブ","ホットカーペット","こたつ","電気毛布","その他"].each do |reibou|
+  reibou.children.create(name: reibou)
+end
+
+["冷蔵庫","洗濯機","炊飯器","電子レンジ/オーブン","調理機器","アイロン","掃除機","エスプレッソマシン","コーヒーメーカー","衣類乾燥機","その他"].each do |seikatu|
+  seikatu.children.create(name: seikatu)
 end
 
 
