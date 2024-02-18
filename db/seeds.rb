@@ -465,62 +465,62 @@ sonota.children.create(name: "その他")
 
 golf,fissing,jitensya,traning,yakyu,sakka,tenisu,snowbode,skie,tasport,outdore,sonota = sportleja.children.create([{name: "ゴルフ"},{name: "フィッシング"},{name: "自転車"},{name: "トレーニング/エクササイズ"},{name: "野球"},{name: "サッカー/フットサル"},{name: "テニス"},{name: "スノーボード"},{name: "スキー"},{name: "その他スポーツ"},{name: "アウトドア"},{name: "その他"}])
 
-["クラブ","ウエア(男性用)","ウエア(女性用)","バッグ","シューズ(男性用)","シューズ(女性用)","アクセサリー","その他"].each do |name|
-  golf.children.create(name: name)
+["クラブ","ウエア(男性用)","ウエア(女性用)","バッグ","シューズ(男性用)","シューズ(女性用)","アクセサリー","その他"].each do |golf|
+  golf.children.create(name: golf)
 end
 
 
-["ロッド","リール","ルアー用品","ウエア","釣り糸/ライン","その他"].each do |name|
-  fissing.children.create(name: name)
+["ロッド","リール","ルアー用品","ウエア","釣り糸/ライン","その他"].each do |fissing|
+  fissing.children.create(name: fissing)
 end
 
 
-["自転車本体","ウエア","パーツ","アクセサリー","バッグ","工具/メンテナンス","その他"].each do |name|
-  jitensya.children.create(name: name)
+["自転車本体","ウエア","パーツ","アクセサリー","バッグ","工具/メンテナンス","その他"].each do |jitensya|
+  jitensya.children.create(name: jitensya)
 end
 
 
-["ランニング","ウォーキング","ヨガ","トレーニング用品","その他"].each do |name|
-  traning.children.create(name: name)
+["ランニング","ウォーキング","ヨガ","トレーニング用品","その他"].each do |traning|
+  traning.children.create(name: traning)
 end
 
-["ウェア","シューズ","グローブ","バット","アクセサリー","防具","練習機器","記念グッズ","応援グッズ","その他"].each do |name|
-  yakyu.children.create(name: name)
-
-end
-
-
-["ウェア","シューズ","ボール","アクセサリー","記念グッズ","応援グッズ","その他"].each do |name|
-  sakka.children.create(name: name)
-end
-
-
-["ラケット(硬式用)","ラケット(軟式用)","ウェア","シューズ","ボール","アクセサリー","記念グッズ","応援グッズ","その他"].each do |name|
-  tenisu.children.create(name: name)
+["ウェア","シューズ","グローブ","バット","アクセサリー","防具","練習機器","記念グッズ","応援グッズ","その他"].each do |yakyu|
+  yakyu.children.create(name: yakyu)
 
 end
 
 
-["ボード","バインディング","ブーツ(男性用)","ブーツ(女性用)","ブーツ(子ども用)","ウエア/装備(男性用)","ウエア/装備(女性用)","ウエア/装備(子ども用)","アクセサリー","バッグ","その他"].each do |name|
-  snowbode.children.create(name: name)
-end
-
-["板","ブーツ(男性用)","ブーツ(女性用)","ブーツ(子ども用)","ビンディング","ウエア(男性用)","ウエア(女性用)","ウエア(子ども用)","ストック","その他"].each do |name|
-  skie.children.create(name: name)
+["ウェア","シューズ","ボール","アクセサリー","記念グッズ","応援グッズ","その他"].each do |sakka|
+  sakka.children.create(name: sakka)
 end
 
 
-["ダンス/バレエ","サーフィン","バスケットボール","バドミントン","バレーボール","スケートボード","陸上競技","ラグビー","アメリカンフットボール","ボクシング","ボウリング","その他"].each do |name|
-  tasport.children.create(name: name)
-end
+["ラケット(硬式用)","ラケット(軟式用)","ウェア","シューズ","ボール","アクセサリー","記念グッズ","応援グッズ","その他"].each do |tenisu|
+  tenisu.children.create(name: tenisu)
 
-["テント/タープ","ライト/ランタン","寝袋/寝具","テーブル/チェア","ストーブ/コンロ","調理器具","食器","登山用品","その他"].each do |name|
-  outdore.children.create(name: name)
 end
 
 
-["旅行用品","その他"].each do |name|
-  sonota.children.create(name: name)
+["ボード","バインディング","ブーツ(男性用)","ブーツ(女性用)","ブーツ(子ども用)","ウエア/装備(男性用)","ウエア/装備(女性用)","ウエア/装備(子ども用)","アクセサリー","バッグ","その他"].each do |snowbode|
+  snowbode.children.create(name: snowbode)
+end
+
+["板","ブーツ(男性用)","ブーツ(女性用)","ブーツ(子ども用)","ビンディング","ウエア(男性用)","ウエア(女性用)","ウエア(子ども用)","ストック","その他"].each do |skie|
+  skie.children.create(name: skie)
+end
+
+
+["ダンス/バレエ","サーフィン","バスケットボール","バドミントン","バレーボール","スケートボード","陸上競技","ラグビー","アメリカンフットボール","ボクシング","ボウリング","その他"].each do |tasport|
+  tasport.children.create(name: tasport)
+end
+
+["テント/タープ","ライト/ランタン","寝袋/寝具","テーブル/チェア","ストーブ/コンロ","調理器具","食器","登山用品","その他"].each do |outdore|
+  outdore.children.create(name: outdore)
+end
+
+
+["旅行用品","その他"].each do |sonota|
+  sonota.children.create(name: sonota)
 end
 
 
