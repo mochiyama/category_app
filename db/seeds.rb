@@ -530,36 +530,36 @@ acw,fassionko,tokei,nitiyou,syumi,kids,sozai,niji,sonota = handmade.children.cre
 二次創作物"},{name: "素材/材料"},{name: "その他"}])
 
 
-["ピアス","イヤリング","ネックレス","ブレスレット","リング","チャーム","ヘアゴム","アンクレット","その他"].each do |name|
-  acw.children.create(name: name)
+["ピアス","イヤリング","ネックレス","ブレスレット","リング","チャーム","ヘアゴム","アンクレット","その他"].each do |acw|
+  acw.children.create(name: acw)
 end
 
 
-["バッグ(女性用)","バッグ(男性用)","財布(女性用)","財布(男性用)","ファッション雑貨","その他"].each do |name|
-  fassionko.children.create(name: name)
+["バッグ(女性用)","バッグ(男性用)","財布(女性用)","財布(男性用)","ファッション雑貨","その他"].each do |fassionko|
+  fassionko.children.create(name: fassionko)
 end
 
-["アクセサリー(男性用)","時計(女性用)","時計(男性用)","その他"].each do |name|
-  tokei.children.create(name: name)
-end
-
-
-["キッチン用品","家具","文房具","アート/写真","アロマ/キャンドル","フラワー/ガーデン","その他"].each do |name|
-  nitiyou.children.create(name: name)
+["アクセサリー(男性用)","時計(女性用)","時計(男性用)","その他"].each do |tokei|
+  tokei.children.create(name: tokei)
 end
 
 
-["クラフト/布製品","おもちゃ/人形","その他"].each do |name|
-  syumi.children.create(name: name)
+["キッチン用品","家具","文房具","アート/写真","アロマ/キャンドル","フラワー/ガーデン","その他"].each do |nitiyou|
+  nitiyou.children.create(name: nitiyou)
 end
 
 
-["ファッション雑貨","スタイ/よだれかけ","外出用品","ネームタグ","その他"].each do |name|
-  kids.children.create(name: name)
+["クラフト/布製品","おもちゃ/人形","その他"].each do |syumi|
+  syumi.children.create(name: syumi)
 end
 
-["Ingress","クリエイターズ宇宙兄弟"].each do |name|
-  niji.children.create(name: name)
+
+["ファッション雑貨","スタイ/よだれかけ","外出用品","ネームタグ","その他"].each do |kids|
+  kids.children.create(name: kids)
+end
+
+["Ingress","クリエイターズ宇宙兄弟"].each do |niji|
+  niji.children.create(name: niji)
 end
 
 
