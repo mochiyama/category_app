@@ -567,39 +567,39 @@ end
 
 music,sport,engeki,event,moovi,sisetu,yutai,sonota = ticket.children.create([{name: "音楽"},{name: "スポーツ"},{name: "演劇/芸能"},{name: "イベント"},{name: "映画"},{name: "施設利用券"},{name: "優待券/割引券"},{name: "その他"}])
 
-["男性アイドル","女性アイドル","韓流","国内アーティスト","海外アーティスト","音楽フェス","声優/アニメ","その他"].each do |name|
-  music.children.create(name: name)
+["男性アイドル","女性アイドル","韓流","国内アーティスト","海外アーティスト","音楽フェス","声優/アニメ","その他"].each do |music|
+  music.children.create(name: music)
 end
 
 
-["サッカー","野球","テニス","格闘技/プロレス","相撲/武道","ゴルフ","バレーボール","バスケットボール","モータースポーツ","ウィンタースポーツ","その他"].each do |name|
-  sport.children.create(name: name)
+["サッカー","野球","テニス","格闘技/プロレス","相撲/武道","ゴルフ","バレーボール","バスケットボール","モータースポーツ","ウィンタースポーツ","その他"].each do |sport|
+  sport.children.create(name: sport)
 
 end
 
 
-["ミュージカル","演劇","伝統芸能","落語","お笑い","オペラ","サーカス","バレエ","その他"].each do |name|
-  engeki.children.create(name: name)
+["ミュージカル","演劇","伝統芸能","落語","お笑い","オペラ","サーカス","バレエ","その他"].each do |engeki|
+  engeki.children.create(name: engeki)
 end
 
 
-["声優/アニメ","キッズ/ファミリー","トークショー/講演会","その他"].each do |name|
-  event.children.create(name: name )
+["声優/アニメ","キッズ/ファミリー","トークショー/講演会","その他"].each do |event|
+  event.children.create(name: event )
 end
 
 
-["邦画","洋画","その他"].each do |name|
-  moovi.children.create(name: name)
+["邦画","洋画","その他"].each do |moovi|
+  moovi.children.create(name: moovi)
 end
 
 
-["遊園地/テーマパーク","美術館/博物館","スキー場","ゴルフ場","フィットネスクラブ","プール","ボウリング場","水族館","動物園","その他"].each do |name|
-  sisetu.children.create(name: name)
+["遊園地/テーマパーク","美術館/博物館","スキー場","ゴルフ場","フィットネスクラブ","プール","ボウリング場","水族館","動物園","その他"].each do |sisetu|
+  sisetu.children.create(name: sisetu)
 end
 
 
-["ショッピング","レストラン/食事券","フード/ドリンク券","宿泊券","その他"].each do |name|
-  yutai.children.create(name: name)
+["ショッピング","レストラン/食事券","フード/ドリンク券","宿泊券","その他"].each do |yutai|
+  yutai.children.create(name: yutai)
 end
 
 
