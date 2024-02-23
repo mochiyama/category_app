@@ -641,37 +641,37 @@ end
 
 matome,pet,food,drink,nitiyou,untic,bunbou,jimu,sonota = sonota1.children.create([{name: "まとめ売り"},{name: "ペット用品"},{name: "食品"},{name: "飲料/酒"},{name: "日用品/生活雑貨/旅行"},{name: "アンティーク/コレクション"},{name: "文房具/事務用品"},{name: "事務"},{name: ""}])
 
-["ペットフード","犬用品","猫用品","魚用品/水草","小動物用品","爬虫類/両生類用品","かご/おり","鳥用品","虫類用品","その他"].each do |name|
-  pet.children.create(name: name)
+["ペットフード","犬用品","猫用品","魚用品/水草","小動物用品","爬虫類/両生類用品","かご/おり","鳥用品","虫類用品","その他"].each do |pet|
+  pet.children.create(name: pet)
 end
 
 
-["菓子","米","野菜","果物","調味料","魚介類(加工食品)","肉類(加工食品)","その他 加工食品","その他"].each do |name|
-  food.children.create(name: name)
+["菓子","米","野菜","果物","調味料","魚介類(加工食品)","肉類(加工食品)","その他 加工食品","その他"].each do |food|
+  food.children.create(name: food)
 end
 
 
-["コーヒー","ソフトドリンク","ミネラルウォーター","茶","ウイスキー","ワイン","ブランデー","焼酎","日本酒","ビール、発泡酒","その他"].each do |name|
-  drink.children.create(name: name)
+["コーヒー","ソフトドリンク","ミネラルウォーター","茶","ウイスキー","ワイン","ブランデー","焼酎","日本酒","ビール、発泡酒","その他"].each do |drink|
+  drink.children.create(name: drink)
 end
 
 
 
-["タオル/バス用品","日用品/生活雑貨","洗剤/柔軟剤","旅行用品","防災関連グッズ","その他"].each do |name|
-  nitiyou.children.create(name: name)
+["タオル/バス用品","日用品/生活雑貨","洗剤/柔軟剤","旅行用品","防災関連グッズ","その他"].each do |nitiyou|
+  nitiyou.children.create(name: nitiyou)
 end
 
 
-["雑貨","工芸品","家具","印刷物","その他"].each do |name|
-  untic.children.create(name: name)
+["雑貨","工芸品","家具","印刷物","その他"].each do |untic|
+  untic.children.create(name: untic)
 end
 
 
-["筆記具","ノート/メモ帳","テープ/マスキングテープ","カレンダー/スケジュール","アルバム/スクラップ","ファイル/バインダー","はさみ/カッター","カードホルダー/名刺管理","のり/ホッチキス","その他"].each do |name|
-  bunbou.children.create(name: name)
+["筆記具","ノート/メモ帳","テープ/マスキングテープ","カレンダー/スケジュール","アルバム/スクラップ","ファイル/バインダー","はさみ/カッター","カードホルダー/名刺管理","のり/ホッチキス","その他"].each do |bunbou|
+  bunbou.children.create(name: bunbou)
 end
 
 
-["オフィス用品一般","オフィス家具","店舗用品","OA機器","ラッピング/包装","その他"].each do |name|
-  jimu.children.create(name: name)
+["オフィス用品一般","オフィス家具","店舗用品","OA機器","ラッピング/包装","その他"].each do |jimu|
+  jimu.children.create(name: jimu)
 end
