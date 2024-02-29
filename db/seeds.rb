@@ -613,7 +613,7 @@ car,taiya,part,acs,autoby,autopart,autobyac = car_autoby.children.create([{name:
 end
 
 ["タイヤ/ホイールセット","タイヤ","ホイール","その他"].each do |taiya|
-  taiya.children.create(name: name)
+  taiya.children.create(name: taiya)
 end
 
 ["サスペンション","ブレーキ","外装、エアロパーツ","ライト","内装品、シート","ステアリング","マフラー・排気系","エンジン、過給器、冷却装置","クラッチ、ミッション、駆動系","電装品","補強パーツ","汎用パーツ","外国自動車用パーツ","その他"].each do |part|
