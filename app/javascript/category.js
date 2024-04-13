@@ -2,6 +2,7 @@ window.addEventListener('turbo:load', function () {
 
   const parentCategory = document.getElementById('parent-category')
   const selectWrap = document.getElementById('select-wrap')
+
   const selectChildElement = (selectForm) => {
 
   }
@@ -19,6 +20,8 @@ window.addEventListener('turbo:load', function () {
 
     XHR.onload = () => {
       const items = XHR.response.item;
+      appendChildSelect(items)
+      const childCategory = document.getElementById('child-select')
     }
   }
 
@@ -40,7 +43,6 @@ window.addEventListener('turbo:load', function () {
     childWrap.appendChild(childSelect)
     selectWrap.appendChild(childWrap)
   }
-
 
   parentCategory.addEventListener('change', function () {
     selectChildElement('child-select-wrap')
