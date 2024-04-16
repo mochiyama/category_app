@@ -22,7 +22,7 @@ window.addEventListener('turbo:load', function () {
       const items = XHR.response.item;
       appendChildSelect(items)
       const childCategory = document.getElementById('child-select')
-      
+
       childCategory.addEventListener('change', () => {
         selectChildElement('grand-child-select-wrap')
         getGrandchildCategoryData(childCategory)
@@ -47,6 +47,16 @@ window.addEventListener('turbo:load', function () {
 
     childWrap.appendChild(childSelect)
     selectWrap.appendChild(childWrap)
+  }
+
+  const getGrandchildCategoryData = (grandchildCategory) => {
+    const grandchildValue = grandchildCategory.value
+    categoryXHR(grandchildValue)
+
+    XHR.onload = () => {
+      const GrandChildItems = XHR.response.item;
+      appendGrandChildSelect(GrandChildItems)
+    }
   }
 
   parentCategory.addEventListener('change', function () {
