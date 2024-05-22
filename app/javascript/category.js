@@ -6,9 +6,9 @@ window.addEventListener('turbo:load', function () {
 
   // 選択フォームを繰り返し表示する
   const selectChildElement = (selectForm) => {
-    if (document.getElementById(selectForm) !== null) {
-      document.getElementById(selectForm).remove()
-    }
+
+
+    
   }
 
   // Ajax通信を可能にする
